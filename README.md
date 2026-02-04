@@ -1,14 +1,6 @@
 # Geocoding API
 
-REST API to convert city names to latitude/longitude coordinates. Get precise geographic coordinates with a single API call.
-
-## Features
-
-- Convert any city name to lat/long coordinates
-- Filter by state and country code for accuracy
-- Covers cities worldwide
-- 5,000 requests/month on free tier
-- Example Response:
+Free and Unlimited API to convert city names to latitude/longitude coordinates. Example Response:
 ```json
 {
   "name": "New York",
@@ -20,6 +12,16 @@ REST API to convert city names to latitude/longitude coordinates. Get precise ge
   }
 }
 ```
+
+## Features
+
+- Convert any city name to lat/long coordinates
+- Completely free and unlimited - no rate limits, no usage caps
+- Once the Geolocation API is perfected, we will open source it by February 25, 2026.
+- Filter by state and country code for accuracy
+- Covers cities worldwide
+- High Quality Api, Built by [Omkar Cloud](https://github.com/omkarcloud), a pro open source organization ([creators of Botasaurus](https://github.com/omkarcloud/botasaurus), 3.8K+ GitHub stars)
+
 
 ## Authentication
 
@@ -184,19 +186,11 @@ if response.status_code == 200:
 elif response.status_code == 401:
     # Invalid API key
     pass
-elif response.status_code == 429:
-    # Rate limit exceeded
-    pass
 ```
 
 ## Rate Limits
 
-| Plan | Price | Requests/Month |
-|------|-------|----------------|
-| Free | $0 | 5,000 |
-| Starter | $25 | 100,000 |
-| Grow | $75 | 1,000,000 |
-| Scale | $150 | 10,000,000 |
+**No limits!** This API is completely free with unlimited requests.
 
 ## Questions? We have answers.
 
