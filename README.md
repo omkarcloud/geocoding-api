@@ -1,6 +1,14 @@
 # Geocoding API
 
-Free and Unlimited API to convert city names to latitude/longitude coordinates. Example Response:
+REST API to convert city names to latitude/longitude coordinates. Get precise geographic coordinates with a single API call.
+
+## Features
+
+- Convert any city name to lat/long coordinates
+- Filter by state and country code for accuracy
+- Covers cities worldwide
+- 100 requests/month on free tier
+- Example Response:
 ```json
 {
   "name": "New York",
@@ -13,27 +21,9 @@ Free and Unlimited API to convert city names to latitude/longitude coordinates. 
 }
 ```
 
-## Features
+## Get API Key
 
-- Convert any city name to lat/long coordinates
-- Completely free and unlimited - no rate limits, no usage caps
-- Once the Geolocation API is perfected, we will open source it by February 25, 2026.
-- Filter by state and country code for accuracy
-- Covers cities worldwide
-- High Quality Api, Built by [Omkar Cloud](https://github.com/omkarcloud), a pro open source organization ([creators of Botasaurus](https://github.com/omkarcloud/botasaurus), 3.8K+ GitHub stars)
-
-
-## Authentication
-
-1. Create account at [omkar.cloud](https://www.omkar.cloud/auth/sign-up)
-
-![Sign Up](https://raw.githubusercontent.com/omkarcloud/assets/master/images/signup.png)
-
-2. Get API key from [omkar.cloud/api-key](https://www.omkar.cloud/api-key)
-
-![Copy API Key](https://raw.githubusercontent.com/omkarcloud/assets/master/images/enrichment-key-omkar.png)
-
-3. Include `API-Key` header in requests
+Create an account at [omkar.cloud](https://www.omkar.cloud/auth/sign-up?redirect=/api-key) to get your API key, and use it in requests. 100 requests are free every month.
 
 ## Quick Start
 
@@ -186,11 +176,19 @@ if response.status_code == 200:
 elif response.status_code == 401:
     # Invalid API key
     pass
+elif response.status_code == 429:
+    # Rate limit exceeded
+    pass
 ```
 
 ## Rate Limits
 
-**No limits!** This API is completely free with unlimited requests.
+| Plan | Price | Requests/Month |
+|------|-------|----------------|
+| Free | $0 | 100 |
+| Starter | $16 | 3,000 |
+| Grow | $48 | 15,000 |
+| Scale | $148 | 75,000 |
 
 ## Questions? We have answers.
 
