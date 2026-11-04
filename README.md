@@ -196,4 +196,4 @@ Reach out anytime. We will solve your query within 1 working day.
 
 [![Contact Us on WhatsApp about Geocoding API](https://raw.githubusercontent.com/omkarcloud/assets/master/images/whatsapp-us.png)](https://www.omkar.cloud/l/geocoding-api-github-whatsapp)
 
-[![Contact Us on Email about Geocoding API](https://raw.githubusercontent.com/omkarcloud/assets/master/images/ask-on-email.png)](https://www.omkar.cloud/l/geocoding-api-github-email)
+[![Contact Us on Email about Geocoding API](https://raw.githubusercontent.com/omkarcloud/assets/master/images/ask-on-email.png)](mailto:happy.to.help@omkar.cloud?subject=Geocoding%20API%20Question)
